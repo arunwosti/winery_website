@@ -1,0 +1,116 @@
+
+@media (max-width:1024px){
+
+
+
+}
+@media (max-width:991px){
+/*custom classes*/
+.text-content{
+    width: 100%;
+}
+.homepad{
+    padding-left: 200px;
+}
+ 
+
+.headp{
+    font-size: 10px;
+    
+    font-family: var(--secondary-font);
+    color: var(--black-color);
+   
+    
+}
+.fash{
+    color: var(--primary-color);
+    
+    font-size: 8px;
+}
+.headbp{
+    font-size: 12px;
+    
+    font-family: var(--secondary-font);
+    color: var(--black-color);
+}
+
+/*navigation*/
+
+.navigation-wrap .navbar-brand img{
+    height: 3rem;
+    width: 1rem;
+}
+.navigation-wrap {
+    text-align: center;
+    margin: auto;
+    
+}
+
+
+/* top banner*/
+.imgedit{
+    width: 100%;
+    height: 800 px;
+    margin-top: 220px;
+    /*flex: right;*/
+    
+}
+.top-banner{
+    width: 100%;
+    margin-bottom: 50px;
+    
+    padding: 4rem 0 0 0;
+    height: 600px;
+}
+
+#counter-section{
+    background-color: var(--primary-color);
+   
+    padding: 2.5rem 0;
+    
+    width: 100%;
+   
+    
+}
+
+
+
+    
+}
+@media (max-width:767px){
+    .imgedit{
+        display: none;
+    }
+
+.homepad{
+    padding-left: 0px;
+}
+
+/*Newsletter*/
+.newsletter{
+    width: 75%;
+
+}
+.newsletter .main-btn{
+    width: 100%;
+    margin-top: 1rem;
+}
+/*Footer*/
+.footer .footer-link,
+.footer a i{
+    padding: 0 0.7rem;
+}
+    
+}
+@media (max-width:330px){
+
+    .homepad{
+        padding-left:0px;
+    }
+    .footer .footer-link{
+        padding: 0;
+        text-align: left;
+    }
+
+    
+}
